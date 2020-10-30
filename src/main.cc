@@ -25,12 +25,12 @@
 
 #include <iostream>
 
-#include "core/SpriteState.h"
+#include "core/State.h"
 
 int main() {
   std::cout << "Hello language hacking!" << std::endl;
 
-  sprite::SpriteState ss;
+  sprite::State ss;
 
   return 0;
 }

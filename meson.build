@@ -2,7 +2,7 @@ project('tutorial', 'cpp')
 
 src = [
   'src/core/Module.cc',
-  'src/core/SpriteState.cc',
+  'src/core/State.cc',
   'src/core/Structure.cc'
 ]
 
