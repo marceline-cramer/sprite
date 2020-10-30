@@ -1,7 +1,8 @@
 project('tutorial', 'cpp')
 
 src = [
-  'src/core/SpriteState.cc'
+  'src/core/SpriteState.cc',
+  'src/core/Structure.cc'
 ]
 
 inc = include_directories(
