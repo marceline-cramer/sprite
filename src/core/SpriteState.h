@@ -1,7 +1,7 @@
 /**
- * @file main.cc
+ * @file SpriteState.h
  * @author Marceline Cramer (cramermarceline@gmail.com)
- * @brief
+ * @brief Contains the global state for a Sprite instance.
  * @date 2020-10-29
  *
  * @copyright Copyright (c) 2020 Marceline Cramer
@@ -23,14 +23,18 @@
  *
  */
 
-#include <iostream>
+#ifndef SRC_CORE_SPRITESTATE_H_
+#define SRC_CORE_SPRITESTATE_H_
 
-#include "core/SpriteState.h"
+namespace sprite {
 
-int main() {
-  std::cout << "Hello language hacking!" << std::endl;
+class SpriteState {
+ public:
+  SpriteState();
 
-  sprite::SpriteState ss;
+ private:
+};
 
-  return 0;
-}
+}  // namespace sprite
+
+#endif  // SRC_CORE_SPRITESTATE_H_
